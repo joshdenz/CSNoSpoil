@@ -3,22 +3,23 @@
     var scoresLost = Array.from(document.getElementsByClassName('lost'));
     var livescore = Array.from(document.getElementsByClassName('livescore'));
     var results = Array.from(document.getElementsByClassName('results'));
-
+    var sanitizedReplacementTextHyphen = DOMPurify.sanitize('-');
+    var sanitizedReplacementTextSpace = DOMPurify.sanitize('');
     scoresWon.forEach(function (item) {
-        item.innerHTML = '-';
+        item.innerHTML = sanitizedReplacementTextHyphen;
         item.style.color = 'black';
     });
 
     scoresLost.forEach(function (item) {
-        item.innerHTML = '-';
+        item.innerHTML = sanitizedReplacementTextHyphen;
         item.style.color = 'black';
     });
 
     results.forEach(function (item) {
-        item.innerHTML = '';
+        item.innerHTML = sanitizedReplacementTextSpace;
     })
 
     livescore.forEach(function(item){
-        item.innerHTML = '-';
+        item.innerHTML = sanitizedReplacementTextHyphen;
     })
 })();

@@ -3,7 +3,7 @@
     "name": "CSNoSpoil",
     "version": "1.0",
   
-    "description": "Removes the scores from HLTV results page to prevent spoilers.",
+    "description": "Removes the scores from HLTV results, and individual match pages to prevent spoilers.",
     "homepage_url": "https://github.com/joshdenz/CSNoSpoil",
 
     "content_scripts": [

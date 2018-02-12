@@ -1,0 +1,22 @@
+{
+    "manifest_version": 1,
+    "name": "CSNoSpoil",
+    "version": "1.0",
+  
+    "description": "Removes the scores from HLTV results page to prevent spoilers.",
+    "homepage_url": "",
+    "icons": {
+      "48": ""
+    },
+  
+    "permissions": [
+      "activeTab"
+    ],
+
+    "content-scripts": [
+        {
+            "matches": ["https://www.hltv.org/results"],
+            "js": ["noSpoilResults.js"]
+        }
+    ]
+  }

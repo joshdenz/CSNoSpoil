@@ -4,6 +4,19 @@ CSNoSpoil is a WebExtension that hides the scores displayed on the hltv.org Resu
 
 This extension is not affiliated with hltv.org in any way.
 
+Results page example:
+<p align="left">
+<img src="https://user-images.githubusercontent.com/5851874/36132437-4ffca006-1045-11e8-9d07-d9f04e992e28.png"/>
+</p>
+
+Match page example:
+<p align="left">
+<img src="https://user-images.githubusercontent.com/5851874/36132441-52238b24-1045-11e8-8d2f-29bad6cd34bc.png"/>
+</p>
+
+#### Note
+There is a slight delay before the scores are hidden. Open to suggestions on that :).
+
 ## Installation
 
 For now, until (if ever) it is approved, you will have to install the extension via the Load Temporary Add-on function on the about:debugging page.

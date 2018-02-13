@@ -9,11 +9,11 @@
     "content_scripts": [
         {
             "matches": ["https://www.hltv.org/results"],
-            "js": ["purify.min.js","noSpoilResults.js"]
+            "js": ["node_modules/dompurify/dist/purify.min.js","noSpoilResults.js"]
         }, 
         {
             "matches": ["https://www.hltv.org/matches/*/*"],
-            "js": ["purify.min.js","noSpoilMatches.js"]
+            "js": ["node_modules/dompurify/dist/purify.min.js","noSpoilMatches.js"]
         }
     ]
   }

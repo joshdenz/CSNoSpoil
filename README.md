@@ -21,11 +21,7 @@ There is a slight delay before the scores are hidden. Open to suggestions on tha
 
 For now, until (if ever) it is approved, you will have to install the extension via the Load Temporary Add-on function on the about:debugging page.
 
-Clone the repo and then:
-```
-npm install
-```
-Then from the about:debugging page in Firefox, use the Load Temporary Add-on button and select the projects manifest.json file.
+Clone the repo and then from the about:debugging page in Firefox, use the Load Temporary Add-on button and select the projects manifest.json file.
 
 ## Effects
 

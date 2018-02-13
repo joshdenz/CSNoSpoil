@@ -25,9 +25,7 @@ Clone the repo and then from the about:debugging page in Firefox, use the Load T
 
 ## Effects
 
-This extension replaces the individual team scores with dashes ('-').
-
-Additionally, the results under each map in the match page are removed.
+This extension sets display = none for all of the score related elements on the results and match pages.
 
 ## Uninstallation
 

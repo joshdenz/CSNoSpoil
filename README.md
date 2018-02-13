@@ -31,7 +31,7 @@ Then from the about:debugging page in Firefox, use the Load Temporary Add-on but
 
 This extension replaces the individual team scores with dashes ('-').
 
-Additionally, the results under each map in the matches page are removed.
+Additionally, the results under each map in the match page are removed.
 
 ## Uninstallation
 

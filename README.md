@@ -14,14 +14,9 @@ Match page example:
 <img src="https://user-images.githubusercontent.com/5851874/36132441-52238b24-1045-11e8-8d2f-29bad6cd34bc.png"/>
 </p>
 
-#### Note
-There is a slight delay before the scores are hidden. Open to suggestions on that :).
-
 ## Installation
 
-For now, until (if ever) it is approved, you will have to install the extension via the Load Temporary Add-on function on the about:debugging page.
-
-Clone the repo and then from the about:debugging page in Firefox, use the Load Temporary Add-on button and select the projects manifest.json file.
+Grab the xpi and install from FireFox's addons page.
 
 ## Effects
 
